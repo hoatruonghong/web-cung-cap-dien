@@ -1,0 +1,34 @@
+/*============ Trang nhân sự ==============*/
+
+.breadcrumbs-title .breadcrumbs-menu .l-height{
+    background: none;
+    border-bottom: 3px solid #ffffff;
+    height:1.5em;
+}
+.breadcrumbs-title .breadcrumbs-menu p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+}
+.table-area .table, th, tr, td{
+    border: 3px solid #000000;
+    text-align: center;
+}
+.table-area thead, .table-area .position{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+.table-area .position{
+    color: #132D65;
+}
+.table-area .table{
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+}
+.table-area table img{
+    width: 150px;
+}
+/*=========================================*/
