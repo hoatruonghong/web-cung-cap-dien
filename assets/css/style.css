@@ -754,6 +754,14 @@ h6 {
   background: url("../img/personnel/banner.png") no-repeat;
   background-size: cover;
 }
+.bg-img-lab{
+  background: url("../img/lab/banner.png") no-repeat;
+  background-size: cover;
+}
+.bg-img-education{
+  background: url("../img/education/banner.png") no-repeat;
+  background-size: cover;
+}
 /* background gradient 
 ===================================*/
 .gradient-1{

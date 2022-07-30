@@ -1,0 +1,12 @@
+/*============ Trang phòng thí nghiệm ==============*/
+
+.breadcrumbs-title .l-height{
+    background: none;
+    border-bottom: 3px solid #ffffff;
+    height:1.5em;
+    margin-right: 50px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+/*=========================================*/
