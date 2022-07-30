@@ -1,0 +1,27 @@
+/*============Trang nghiên cứu==============*/
+
+.breadcrumbs-title .l-height{
+    background: none;
+    border-bottom: 3px solid #ffffff;
+    height:1.5em;
+    margin-right: 50px;
+    margin-left: auto;
+}
+.field-area .text-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.field-area ul li{
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000000;
+}
+
+
+
+
+
+/*=========================================*/
