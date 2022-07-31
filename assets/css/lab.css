@@ -24,14 +24,18 @@
 .lab-area .item{
     text-align: center;
 }
+.lab-area .lab-row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 @media only screen and (min-width: 1024px) {
     .lab-area .promo-text{
         text-align: left;
-        padding: 60px;
+        padding: 25% 10%;
     }
 }
 .lab-area .item img{
-    width: 80%;
+    width: 100%;
 }
 
 /*=========================================*/
