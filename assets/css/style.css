@@ -148,10 +148,10 @@ hr.line {
 /* Link style
 ============== */
 a {
-    color: #ffffff;
+  color: #ffffff;
 	font-family: 'Montserrat';
-    font-weight: 600;
-    text-transform: capitalize;
+  font-weight: 600;
+  /*text-transform: capitalize;*/
 	line-height: 1;
 }
 a,a > * {
@@ -245,6 +245,9 @@ h6 {
 }
 .section-pb {
     padding-bottom: 120px;
+}
+.black-color{
+  color: #000000;
 }
 .white-color{
 	color: #ffffff;

@@ -1,0 +1,23 @@
+/*============ Trang đào tạo ==============*/
+
+.breadcrumbs-title .l-height{
+    background: none;
+    border-bottom: 3px solid #ffffff;
+    height:1.5em;
+    margin-right: 50px;
+    margin-left: auto;
+}
+.text-content{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.item-box{
+    min-height: 150px;
+    text-align: center;
+    justify-content: center;
+}
+/*=========================================*/
