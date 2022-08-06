@@ -683,6 +683,12 @@ h6 {
 .text-black{
   color: #000000;
 }
+.text-blue-light{
+  color: #18A0FB;
+}
+.text-blue{
+  color: #132D65;
+}
 /* background color 
 ===============================*/
 
@@ -748,6 +754,10 @@ h6 {
 }
 .bg-img-footer{
   background: url("../img/home/footer/footer.png") no-repeat center;
+}
+.bg-img-intro{
+  background: url("../img/introduction/banner.png") no-repeat;
+  background-size: cover;
 }
 .bg-img-research{
   background: url("../img/research/banner.png") no-repeat;
@@ -967,6 +977,7 @@ button:focus {
   background-color: transparent;
 	color: #7A0000;
   margin-top: 15px;  
+  text-align: right;
 }
 .see-more:hover{
   color: #132D65;
