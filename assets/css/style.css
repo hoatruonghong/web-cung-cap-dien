@@ -433,9 +433,17 @@ h6 {
 
 /*margin left right
 --------------*/
+.mlr-20{
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .mlr-40{
 	margin-left: 40px;
 	margin-right: 40px;
+}
+.mlr-60{
+	margin-left: 60px;
+	margin-right: 60px;
 }
 /* Screen Support */
 @media screen and (max-width: 767px) {	
@@ -1088,7 +1096,9 @@ sub {
 .text-center .section-title hr.line {
   margin: 11px auto 0;
 }
-
+.text-justify{
+  text-align: justify;
+}
 /* Horizontal Line 
 -------------------*/
 .horizontal-line hr {
