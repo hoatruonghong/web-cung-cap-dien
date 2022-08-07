@@ -1247,7 +1247,7 @@ header #active-sticky.is-sticky .logo > a {
     top: 0;
     width: 100%;
     z-index: 9999;
-	  line-height: 80px;
+    line-height: 80px;
     -webkit-box-shadow: 0 1px 4px rgba(2, 3, 3, 0.15);
             box-shadow: 0 1px 4px rgba(2, 3, 3, 0.15);
 }
@@ -1271,7 +1271,7 @@ header #active-sticky.is-sticky .logo > a {
 	  width: 150px;
 	}
 	.navgation-bar.is-sticky {
-		line-height: 70px;
+		min-height: 70px;
 	}
 }
 
@@ -1284,10 +1284,6 @@ header #active-sticky.is-sticky .logo > a {
   top: 131px;
   width: 100%;
   z-index: 2;
-}
-#navbar ul{
-  display: flex;
-  justify-content: space-between;
 }
 .mainmenu li {
     float: left;
@@ -1461,7 +1457,7 @@ header #active-sticky.is-sticky .logo > a {
 	  display: block;
 	}
 	.navgation-bar {
-	  line-height: 70px;
+	  line-height: 150px;
 	}
 	.navgation-bar .logo{
 		float: left;
@@ -1778,46 +1774,27 @@ body.search-active {
     border-bottom: 1px solid #ececec;  
     position: relative;
 }
-.top-bar ul{
-    display: flex;
-    justify-content: space-between;
-}
-.top-bar ul li {
-    float: left;
-    /*line-height: 45px;*/
-    text-decoration: none;
-}
-.top-bar ul li img{
-  width: 15px;
-  height: 15px;
-  -webkit-filter: invert(0%) sepia(11%) saturate(100%) hue-rotate(176deg) brightness(100%) contrast(0%);
-          filter: invert(0%) sepia(11%) saturate(100%) hue-rotate(176deg) brightness(100%) contrast(0%);
-  margin-right: 10px;
-}
-.top-bar ul li,
-.top-bar ul li a {
-    /*text-transform: uppercase;*/
-    font-weight: 500;
-    color: #ffffff;
-    font-family: "Montserrat";
-    font-size: 12px;
-}
-
-.top-bar .right li a {
-    color: #767676;
-    font-weight: 600;
-}
-.top-bar ul li a:hover {
-    color: #169eb7;
-}
-.top-bar ul li {
-    margin-right: 15px;
-    padding-right: 20px;
-    position: relative;
+.top-bar img{
+  width: 8rem;
 }
 .top-bar .title-text h3, .top-bar .title-text h4{
   color: #ffffff;
   margin-top: 10px;
+}
+@media screen and (max-width: 480px) {
+	.top-bar {
+    border-bottom: 1px solid #ececec;  
+    position: relative;
+  }
+  .top-bar img{
+    width: 200%;
+  }
+  .top-bar .title-text h3{
+    font-size: 16px;
+  }
+  .top-bar .title-text h4{
+    font-size: 14px;
+  }
 }
 /* Main Slider's Caption */
 .slider-caption {
