@@ -783,6 +783,10 @@ h6 {
   background: url("../img/education/banner.png") no-repeat;
   background-size: cover;
 }
+.bg-img-contact{
+  background: url("../img/contact/banner.png") no-repeat;
+  background-size: cover;
+}
 /* background gradient 
 ===================================*/
 .gradient-1{
@@ -3792,6 +3796,10 @@ footer .side-wrapper{
 	padding: 0 35px;
 	width: auto;
   color: #ffffff;
+
+}
+.contact-area .custom-input button.btn:hover {
+  color: #18A0FB;
 
 }
 /* Login & Registration Page */

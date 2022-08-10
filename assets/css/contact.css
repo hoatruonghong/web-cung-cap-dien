@@ -1,0 +1,27 @@
+/*============ Trang liên hệ ==============*/
+
+.breadcrumbs-title .l-height{
+    background: none;
+    border-bottom: 3px solid #132D65;
+    height:1.5em;
+    color: #132D65;
+}
+.contact-area .map{
+    margin-right: 50px;
+}
+
+.contact-area .contact-info{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.contact-area .contact-info .contact-info-item{
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 990px) {
+    .contact-area .map{
+        margin-right: 0;
+    }
+}
+/*=========================================*/
