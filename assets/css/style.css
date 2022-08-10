@@ -311,7 +311,7 @@ h6 {
 	height: 100%;
 }
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.percent-20,
 	.percent-25,
 	.percent-33,
@@ -397,7 +397,7 @@ h6 {
 }
 
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.mb-40 {
 		margin-bottom: 20px;
 	}
@@ -480,7 +480,7 @@ h6 {
 	padding-top: 80px;
 }
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.pt-60,
 	.pt-70,
 	.pt-80,
@@ -511,7 +511,7 @@ h6 {
 }
 
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.pb-100,
 	.pb-120{
 		padding-bottom: 80px;
@@ -565,7 +565,7 @@ h6 {
 }
 
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	
 	.ptb-150{
 		padding-top: 110px;
@@ -611,7 +611,7 @@ h6 {
 	padding-right: 70px;
 }
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.pr-70{
 		padding-right: 0px;
 	}
@@ -636,7 +636,7 @@ h6 {
 	padding-right: 35px;
 }
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.plr-20 {
 	  padding-left: 0px;
 	  padding-right: 0px;
@@ -668,7 +668,7 @@ h6 {
 }
 /*font size in screen support
 -----------------------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 
     .font-30 {
         font-size: 25px
@@ -1279,7 +1279,7 @@ header #active-sticky.is-sticky .logo > a {
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.navgation-bar.is-sticky .logo,
 	.navgation-bar .logo {
 	  width: 150px;
@@ -1329,7 +1329,7 @@ header #active-sticky.is-sticky .logo > a {
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.navgation-bar .d-flex{
 		position: relative;
 	}
@@ -1465,7 +1465,7 @@ header #active-sticky.is-sticky .logo > a {
   height: 1px;
 }
 /* Small Screen Support */
-@media (max-width: 767px) {
+@media (max-width: 993px) {
 
 	.navgation-bar .d-flex {
 	  display: block;
@@ -1496,12 +1496,12 @@ header #active-sticky.is-sticky .logo > a {
 	}
 	.navbar-collapse {
 	  width: 100%;
-	  border-color: #ececec;
+	  /*border-color: #ececec;*/
 	  overflow-x: hidden;
 	}
-	.navbar-nav .open .dropdown-menu > li > a {
+	/* .navbar-nav .open .dropdown-menu > li > a {
 	  line-height: 28px;
-	}
+	} */
 	
 	/* Sub Menu */
 	.navbar-nav {
@@ -1619,7 +1619,7 @@ body.search-active {
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.search-toggle i {
 	  margin-left: 0;
 	}
@@ -1688,7 +1688,7 @@ body.search-active {
     opacity: 1;
 }
 /* Screen Support */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.slider-area:hover .swiper-prev ,
 	.slider-area:hover .slick-arrow.prev {
 		left: 0;
@@ -2430,7 +2430,7 @@ footer .side-wrapper{
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	#mainslider-2 .slider-caption {
 	  margin-top: -50px;
 	}
@@ -2657,7 +2657,7 @@ footer .side-wrapper{
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.breadcrumbs-title.blank-space{
 		padding-top: 0px;
 	}
@@ -2694,7 +2694,7 @@ footer .side-wrapper{
 }
 /*Screen Support
 --------------------*/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 993px) {
 	.gallery-menu ul {
 	  margin-bottom: -15px;
 	}
@@ -3908,14 +3908,6 @@ footer .footer-widget-area h5{
   height: 200px;
   padding-left: 50px;
   padding-right: 50px;
-}
-.breadcrumbs-title h1{
-  color: #ffffff;
-  margin: 20px;
-  background-color: #070234;
-  width: 300px;
-  height: 100px;
-  text-align: center;
 }
 /*====================================================================
 							[ END ]
